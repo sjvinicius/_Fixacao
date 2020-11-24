@@ -1,0 +1,13 @@
+C:\Users\vinyl\OneDrive\Documentos\Homolog\_Fixacao\bin\Debug\netcoreapp3.1\_Fixacao.exe
+C:\Users\vinyl\OneDrive\Documentos\Homolog\_Fixacao\bin\Debug\netcoreapp3.1\_Fixacao.deps.json
+C:\Users\vinyl\OneDrive\Documentos\Homolog\_Fixacao\bin\Debug\netcoreapp3.1\_Fixacao.runtimeconfig.json
+C:\Users\vinyl\OneDrive\Documentos\Homolog\_Fixacao\bin\Debug\netcoreapp3.1\_Fixacao.runtimeconfig.dev.json
+C:\Users\vinyl\OneDrive\Documentos\Homolog\_Fixacao\bin\Debug\netcoreapp3.1\_Fixacao.dll
+C:\Users\vinyl\OneDrive\Documentos\Homolog\_Fixacao\bin\Debug\netcoreapp3.1\_Fixacao.pdb
+C:\Users\vinyl\OneDrive\Documentos\Homolog\_Fixacao\obj\Debug\netcoreapp3.1\_Fixacao.csprojAssemblyReference.cache
+C:\Users\vinyl\OneDrive\Documentos\Homolog\_Fixacao\obj\Debug\netcoreapp3.1\_Fixacao.AssemblyInfoInputs.cache
+C:\Users\vinyl\OneDrive\Documentos\Homolog\_Fixacao\obj\Debug\netcoreapp3.1\_Fixacao.AssemblyInfo.cs
+C:\Users\vinyl\OneDrive\Documentos\Homolog\_Fixacao\obj\Debug\netcoreapp3.1\_Fixacao.csproj.CoreCompileInputs.cache
+C:\Users\vinyl\OneDrive\Documentos\Homolog\_Fixacao\obj\Debug\netcoreapp3.1\_Fixacao.dll
+C:\Users\vinyl\OneDrive\Documentos\Homolog\_Fixacao\obj\Debug\netcoreapp3.1\_Fixacao.pdb
+C:\Users\vinyl\OneDrive\Documentos\Homolog\_Fixacao\obj\Debug\netcoreapp3.1\_Fixacao.genruntimeconfig.cache
