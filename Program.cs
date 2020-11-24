@@ -240,46 +240,23 @@ namespace _Fixacao
             // 4 - Faça um programa que leia 10 valores digitados pelo usuário e no final, escreva o maior e o
             // menor valor lido.
 
-            int q = 10;
-            double [] num = new double [q];
-            double mev;
-            double mav;
-            string resp = "";
+            // int q = 10;
+            // double [] num = new double [q];            
 
-            for (int i = 0; i < q; i++)
-            {
-                Console.WriteLine("Digite um número: ");
-                num [i] = double.Parse( Console.ReadLine() );
+            // for (int i = 0; i < q; i++)
+            // {
+            //     Console.WriteLine("Digite um número: ");
+            //     num [i] = double.Parse( Console.ReadLine() );                 
 
-                if (i == 9) {
+            // }
 
-                    Console.WriteLine("Aperte (ENTER) para visualizar !");
-                    resp = Console.ReadLine();
+            // for (var i = 0; i < num.Length; i++)
+            // {
+                
+                
 
-                    while(resp == "") {
+            // }
 
-                        for (var c = 0; c < 10; c++)
-                        {
-                            
-                            if ( num[c] <= num[c-1] ) {
-                                
-                                mev = num[c];
-                                Console.WriteLine($"Até agora ({mev}) é o menor valor");
-
-                            }
-                            else if (num[c] >= num[c+1]) {
-                                mav = num[c];
-                                Console.WriteLine($"Até agora ({mav}) é o maiaor valor");
-                            }
-
-                        }
-
-                        Console.WriteLine("Aperte (ENTER) para visualizar !");
-                    resp = Console.ReadLine();                        
-                    
-                    } 
-                }
-            }
 
             // Console.WriteLine("Os valores inseridos foram: ");
 
@@ -288,7 +265,25 @@ namespace _Fixacao
             //     Console.Write($"{num[i]},");
                 
             // }
-            
+
+            // 5 - Escreva um algoritmo que imprima a tabuada (de 1 a 10) para os números de 1 a 10.
+            // Exemplo: tabuada do 1, tabuada do 2, etc... Dica: utilize um laço dentro do outro.
+
+            int r;
+
+            for (var i = 0; i < 11; i++)
+            {
+                for (var c = 0; c < 11; c++)
+                {
+                    r = c * i;
+                    Console.WriteLine($"{c} * {i} = {r} ");
+
+                    
+                }
+
+                    Console.WriteLine($"================");
+            }
+
         }
     }
 }
