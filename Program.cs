@@ -240,20 +240,41 @@ namespace _Fixacao
             // 4 - Faça um programa que leia 10 valores digitados pelo usuário e no final, escreva o maior e o
             // menor valor lido.
 
-            // int q = 10;
-            // double [] num = new double [q];            
 
-            // for (int i = 0; i < q; i++)
+            // int [] num = new int [10];
+            // int mav = 0;
+            // int men = 0;
+
+
+            // for (var i = 0; i < 10; i++)
             // {
-            //     Console.WriteLine("Digite um número: ");
-            //     num [i] = double.Parse( Console.ReadLine() );            
+            //     Console.WriteLine($"Digite o {i+1}º Valor: ");
+            //     num[i] = int.Parse(Console.ReadLine());
 
             // }
 
-                       
+            // for (var i = 1; i <= 8; i++)
+            // {                    
+            //     if (num[i] <= num[i-1] || num[i] <= num[i+1]) 
+            //     {
+                    
+            //         men = num[i];
+
+            //     }
                 
 
+            //     if(num[i] >= num[i-1] || mav >= num[i] ){
+
+            //         mav = num[i];
+
+            //     }
+
+
             // }
+            
+            // Console.WriteLine($"\nO menor valor é: {men}");
+            // Console.WriteLine($"O maior valor é: {mav}");
+
 
 
             // Console.WriteLine("Os valores inseridos foram: ");
@@ -326,19 +347,19 @@ namespace _Fixacao
             // 15 números, o algoritmo deve escrever esses 15 números lidos na ordem inversa da qual foi
             // declarado.
 
-        //     int val = 15;
-        //     int [] num = new int [15];
+            // int val = 15;
+            // int [] num = new int [15];
 
-        //     for (var i = 0; i < val; i++)
-        //     {
-        //         Console.Write($"Digite o {i+1}º numero: ");
-        //         num [i] = int.Parse( Console.ReadLine() );
-        //     };
+            // for (var i = 0; i < val; i++)
+            // {
+            //     Console.Write($"Digite o {i+1}º numero: ");
+            //     num [i] = int.Parse( Console.ReadLine() );
+            // };
 
-        //     for (var c = num.Length; c >= 0; c--)
-        //     {
-        //         Console.Write($"{num[c-1]}, ");
-        //     };
-        // }
+            // for (var c = num.Length; c >= 1; c--)
+            // {
+            //     Console.Write($" ( {num[c-1]} ) ");
+            // };
+        }
     }
 }
