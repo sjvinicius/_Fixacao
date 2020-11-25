@@ -326,20 +326,19 @@ namespace _Fixacao
             // 15 números, o algoritmo deve escrever esses 15 números lidos na ordem inversa da qual foi
             // declarado.
 
-            int val = 15;
-            int [] num = new int [15];
+        //     int val = 15;
+        //     int [] num = new int [15];
 
-            for (var i = 0; i < val; i++)
-            {
-                Console.Write($"Digite o {i+1}º numero: ");
-                num [i] = int.Parse( Console.ReadLine() );
-            };
+        //     for (var i = 0; i < val; i++)
+        //     {
+        //         Console.Write($"Digite o {i+1}º numero: ");
+        //         num [i] = int.Parse( Console.ReadLine() );
+        //     };
 
-            for (var i = val; i > 0; i--)
-            {
-                Console.Write($" {num[i]} ");
-            }
-
-        }
+        //     for (var c = num.Length; c >= 0; c--)
+        //     {
+        //         Console.Write($"{num[c-1]}, ");
+        //     };
+        // }
     }
 }
