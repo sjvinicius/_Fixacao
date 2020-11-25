@@ -246,13 +246,11 @@ namespace _Fixacao
             // for (int i = 0; i < q; i++)
             // {
             //     Console.WriteLine("Digite um número: ");
-            //     num [i] = double.Parse( Console.ReadLine() );                 
+            //     num [i] = double.Parse( Console.ReadLine() );            
 
             // }
 
-            // for (var i = 0; i < num.Length; i++)
-            // {
-                
+                       
                 
 
             // }
@@ -269,19 +267,77 @@ namespace _Fixacao
             // 5 - Escreva um algoritmo que imprima a tabuada (de 1 a 10) para os números de 1 a 10.
             // Exemplo: tabuada do 1, tabuada do 2, etc... Dica: utilize um laço dentro do outro.
 
-            int r;
+            // int r;
 
-            for (var i = 0; i < 11; i++)
-            {
-                for (var c = 0; c < 11; c++)
-                {
-                    r = c * i;
-                    Console.WriteLine($"{c} * {i} = {r} ");
+            // for (var i = 0; i < 11; i++)
+            // {
+            //     for (var c = 0; c < 11; c++)
+            //     {
+            //         r = c * i;
+            //         Console.WriteLine($"{c} * {i} = {r} ");
 
                     
-                }
+            //     }
 
-                    Console.WriteLine($"================");
+            //         Console.WriteLine($"================");
+            // }
+
+
+            // Vetores:
+            // 6 - Escreva um algoritmo que permita a leitura dos nomes de 10 pessoas e armazene os nomes
+            // lidos em um vetor. Após isto, o algoritmo deve permitir a leitura de mais 1 nome qualquer de
+            // pessoa (para efetuar uma busca) e depois escrever a mensagem ACHEI, se o nome estiver
+            // entre os 10 nomes lidos anteriormente (guardados no vetor), ou NÃO ACHEI caso contrário.
+
+
+            // int qtdp = 10;
+            // string [] nomes = new string [10];
+            // string search;
+
+            // for (var i = 0; i < qtdp; i++)
+            // {
+                
+            //     Console.Write($"Digite o nome da {i+1}º pessoa: ");
+            //     nomes[i] = Console.ReadLine();
+
+            // };
+
+            // Console.Write("Digite o nome de busca: ");
+            // search = Console.ReadLine();
+
+            // for (var i = 0; i < qtdp; i++)
+            // {
+            //     if (nomes[i] == search)
+            //     {
+            //     Console.ForegroundColor = ConsoleColor.Green; 
+            //     Console.Write(" ACHEI");
+            //     Console.ResetColor();
+            //     }
+            //     if ( !(nomes[i] == search) )
+            //     {
+            //     Console.ForegroundColor = ConsoleColor.Red;
+            //     Console.Write(" NAO ACHEI") ;
+            //     Console.ResetColor();
+            //     }
+
+            // }
+
+            // 7 - Faça um algoritmo para ler 15 números e armazenar em um vetor. Após a leitura total dos
+            // 15 números, o algoritmo deve escrever esses 15 números lidos na ordem inversa da qual foi
+            // declarado.
+
+            int val = 15;
+            int [] num = new int [15];
+
+            for (var i = 0; i < val; i++)
+            {
+                Console.Write($"Digite o {i+1}º numero: ");
+                num [i] = int.Parse( Console.ReadLine() );
+            };
+
+            for (var i = val; i > 0; i--)
+            {
+                Console.Write($" {num[i]} ");
             }
 
         }
