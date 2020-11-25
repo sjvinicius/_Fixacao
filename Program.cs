@@ -348,12 +348,12 @@ namespace _Fixacao
             // declarado.
 
             // int val = 15;
-            // int [] num = new int [15];
+            // double [] num = new double [15];
 
             // for (var i = 0; i < val; i++)
             // {
             //     Console.Write($"Digite o {i+1}º numero: ");
-            //     num [i] = int.Parse( Console.ReadLine() );
+            //     num [i] = double.Parse( Console.ReadLine() );
             // };
 
             // for (var c = num.Length; c >= 1; c--)
