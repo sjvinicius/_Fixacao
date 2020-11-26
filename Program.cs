@@ -241,49 +241,40 @@ namespace _Fixacao
             // menor valor lido.
 
 
-            // int [] num = new int [10];
-            // int mav = 0;
-            // int men = 0;
+            int [] num = new int [10];
+            int mav = 0;
+            int men = 1999999999;
 
 
-            // for (var i = 0; i < 10; i++)
-            // {
-            //     Console.WriteLine($"Digite o {i+1}º Valor: ");
-            //     num[i] = int.Parse(Console.ReadLine());
+            for (var i = 0; i < 10; i++)
+            {
+                Console.WriteLine($"Digite o {i+1}º Valor: ");
+                num[i] = int.Parse(Console.ReadLine());
 
-            // }
-
-            // for (var i = 1; i <= 8; i++)
-            // {                    
-            //     if (num[i] <= num[i-1] || num[i] <= num[i+1]) 
-            //     {
-                    
-            //         men = num[i];
-
-            //     }
+                if (num[i] < men) 
+                {
+                    men = num[i];
+                }
                 
 
-            //     if(num[i] >= num[i-1] || mav >= num[i] ){
+                if(num[i] > mav ){
 
-            //         mav = num[i];
+                    mav = num[i];
 
-            //     }
+                }
+            }
 
+            Console.WriteLine("=============================");
+            Console.WriteLine("| Os números escritos foram |");
+            Console.WriteLine("=============================");
 
-            // }
-            
-            // Console.WriteLine($"\nO menor valor é: {men}");
-            // Console.WriteLine($"O maior valor é: {mav}");
-
-
-
-            // Console.WriteLine("Os valores inseridos foram: ");
-
-            // for (var i = 0; i < q; i++)
-            // {
-            //     Console.Write($"{num[i]},");
-                
-            // }
+            for (var i = 0; i < 10; i++)
+            {
+                Console.Write($"( {num[i]} )");
+            }
+          
+            Console.WriteLine($"\nO menor valor é: {men}");
+            Console.WriteLine($"O maior valor é: {mav}");
 
             // 5 - Escreva um algoritmo que imprima a tabuada (de 1 a 10) para os números de 1 a 10.
             // Exemplo: tabuada do 1, tabuada do 2, etc... Dica: utilize um laço dentro do outro.
